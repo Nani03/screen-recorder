@@ -1,7 +1,7 @@
 {
-  "name": "screen-recorder",
-  "version": "1.0.0",
-  "description": "A React screen recorder library with both a hook and a component.",
+  "name": "react-screen-recorder-lite",
+  "version": "1.0.1",
+  "description": "A lightweight React screen recorder library with customizable components and hooks.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -17,9 +17,12 @@
     "react",
     "screen-recorder",
     "media-recorder",
-    "hook",
-    "component",
-    "typescript"
+    "react-screen-recorder",
+    "react-screen-recorder-lite",
+    "screen-recorder-lite",
+    "screen-capture",
+    "recording",
+    "video-recording"
   ],
   "author": "Leela Krishna Prasad Kambampati, Lakshmikanth Balam",
   "license": "MIT",
@@ -36,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/screen-recorder.git"
+    "url": "https://github.com/Nani03/screen-recorder.git"
   }
 }

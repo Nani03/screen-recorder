@@ -1,7 +1,6 @@
 # Screen Recorder Library
 
-A React library for screen recording with both a hook and a component. 
-The functionality of the record button can be customized usingt the 'useScreenRecorder' hook should you need it. This gives you total control on styling as well as configure features that you require.
+A lightweight and versatile React library for screen recording, offering both a customizable component and a powerful hook. With the useScreenRecorder hook, you gain complete control over styling and functionality, enabling you to tailor the recording experience to your specific needs. Whether you need a ready-to-use component or want to build your own custom solution, this library provides the flexibility and simplicity to get started quickly. Perfect for developers looking to integrate seamless screen recording capabilities into their React applications.
 
 ## License
 
