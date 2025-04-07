@@ -1,0 +1,41 @@
+{
+  "name": "screen-recorder",
+  "version": "1.0.0",
+  "description": "A React screen recorder library with both a hook and a component.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:types": "tsc --emitDeclarationOnly",
+    "build": "npm run build:types && vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "screen-recorder",
+    "media-recorder",
+    "hook",
+    "component",
+    "typescript"
+  ],
+  "author": "Leela Krishna Prasad Kambampati, Lakshmikanth Balam",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/screen-recorder.git"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true, // Generate .d.ts files
+    "declarationDir": "dist", // Output directory for .d.ts files
+    "outDir": "dist", // Output directory for compiled files
+    "emitDeclarationOnly": false, // Emit both .js and .d.ts files
+    "module": "ESNext", // Use ES modules
+    "target": "ES2020", // Target modern JavaScript
+    "jsx": "react-jsx", // Use React JSX
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Allow default imports from CommonJS modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "moduleResolution": "node", // Resolve modules using Node.js conventions
+    "isolatedModules": true // Ensure each file is treated as a module
+  },
+  "include": ["src/**/*"], // Include all files in the src directory
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist directories
+}
