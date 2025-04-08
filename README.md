@@ -13,9 +13,9 @@ This software is provided "as is", without warranty of any kind. The authors are
 ## Installation
 
 ```bash
-npm install screen-recorder
+npm install react-screen-recorder-lite
 # or
-yarn add screen-recorder
+yarn add react-screen-recorder-lite
 
 ```
 
