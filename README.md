@@ -37,9 +37,10 @@ function App() {
     </div>
   );
 }
+```
 
 ## Using the Component
-
+``` js
 import { ScreenRecorder } from 'screen-recorder';
 
 function App() {
